@@ -1,13 +1,13 @@
-module.exports = {
-  publicPath: process.env.NODE_ENV === "production" ? "/weatherapp/" : "/",
-};
-
-
-
-
 // module.exports = {
-//   publicPath: ''
-// }
+//   publicPath: process.env.NODE_ENV === "production" ? "" : "/",
+// };
+
+
+
+
+module.exports = {
+  publicPath: ''
+}
 
 
 // const { defineConfig } = require('@vue/cli-service')
